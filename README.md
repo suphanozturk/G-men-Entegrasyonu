@@ -11,8 +11,8 @@ Süphan ÖZTÜRK İleri Web Tasarım Uygulamaları dersi vize ödevi
 
 
 Kullanılan Teknojiler ve Genel Kod Düzeni:
-HTML5 → Sayfanın iskeleti, form yapıları, liste alanları
-CSS3 → Tasarım, görünüm, responsive yapı
-JavaScript → Tüm uygulama mantığı, eventler, veri yönetimi
-LocalStorage → Kayıtların kalıcı tutulması
+- ✅ HTML5 → Sayfanın iskeleti, form yapıları, liste alanları
+- ✅ CSS3 → Tasarım, görünüm, responsive yapı
+- ✅ JavaScript → Tüm uygulama mantığı, eventler, veri yönetimi
+- ✅ LocalStorage → Kayıtların kalıcı tutulması
 
