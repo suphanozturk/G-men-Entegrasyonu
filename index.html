@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Göçmen Entegrasyonu - Bilgilendirme</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Göçmen Entegrasyonu</a>
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">Hakkında</a></li>
+        <li class="nav-item"><a class="nav-link" href="#resources">Kaynaklar</a></li>
+        <li class="nav-item"><a class="nav-link" href="#notes">Notlar</a></li>
+        <li class="nav-item"><button id="openOnboard" class="btn btn-outline-primary ms-2">Başlangıç</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <section id="about" class="mb-5">
+      <h3>Uygulama Hakkında</h3>
+      <p>Bu uygulama, göçmenlerin topluma entegrasyonuna yardımcı olmak amacıyla oluşturulmuştur. Bilgilendirme, kaynaklar ve notlar bölümleri içerir.</p>
+    </section>
+
+    <section id="resources" class="mb-5">
+      <h3>Kaynaklar</h3>
+      <input id="searchRes" class="form-control mb-2" placeholder="Kaynak ara...">
+      <div id="resList"></div>
+    </section>
+
+    <section id="notes">
+      <h3>Notlar</h3>
+      <div class="row">
+        <div class="col-md-6">
+          <input id="noteTitle" class="form-control mb-2" placeholder="Başlık">
+          <textarea id="noteBody" class="form-control mb-2" rows="4" placeholder="Not içeriği..."></textarea>
+          <button id="saveNote" class="btn btn-primary">Kaydet</button>
+          <button id="clearNotes" class="btn btn-outline-danger">Tümünü Sil</button>
+        </div>
+        <div class="col-md-6">
+          <div id="notesList" class="list-group"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-white py-3 shadow-sm text-center small">
+    <div>Süphan Öztürk's App|  <span id="storageInfo"></span></div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
