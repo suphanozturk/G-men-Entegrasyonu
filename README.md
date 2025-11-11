@@ -16,6 +16,7 @@ Kullanılan Teknojiler ve Genel Kod Düzeni:
 - ✅ JavaScript → Tüm uygulama mantığı, eventler, veri yönetimi
 - ✅ LocalStorage → Kayıtların kalıcı tutulması
 
+Genel Kod Düzeni:
 - ✅app.js
 - ✅storage.js
 - ✅uı.js
